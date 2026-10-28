@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -26,18 +27,21 @@ logger = logging.getLogger(__name__)
 
 # Search paths for models
 _POSSIBLE_MODEL_DIRS = [
+    Path(os.environ.get("ML_MODELS_DIR")) if os.environ.get("ML_MODELS_DIR") else None,
     Path(__file__).resolve().parents[4] / "ml-optimization" / "models",
     Path(__file__).resolve().parents[3] / "ml-optimization" / "models",
     Path(__file__).resolve().parents[2] / "ml-optimization" / "models",
+    Path("/app/ml-optimization/models"),
+    Path("./ml-optimization/models"),
 ]
 
 
 def get_models_dir() -> Path:
     """Find the directory containing the trained model artifacts."""
     for d in _POSSIBLE_MODEL_DIRS:
-        if (d / "training_metadata.json").is_file():
+        if d and (d / "training_metadata.json").is_file():
             return d
-    return _POSSIBLE_MODEL_DIRS[0]
+    return _POSSIBLE_MODEL_DIRS[1] or Path("ml-optimization/models")
 
 
 class MLModelManager:

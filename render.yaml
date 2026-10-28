@@ -1,0 +1,18 @@
+services:
+  # Backend API (FastAPI + OR-Tools + ML Model inference)
+  - type: web
+    name: supply-chain-x-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ML_MODELS_DIR
+        value: ml-optimization/models
+      - key: CORS_ORIGINS
+        value: "https://*.vercel.app,http://localhost:5173,http://localhost:5174,*"
+      - key: DATABASE_URL
+        value: "sqlite:///./supply_chain.db"
