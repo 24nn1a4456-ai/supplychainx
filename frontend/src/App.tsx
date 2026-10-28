@@ -207,6 +207,25 @@ export default function App() {
           isResetting={isResetting}
         />
 
+        {/* Prominent Demo/Offline Fallback Warning Banner if Backend is Disconnected */}
+        {connectionError && (
+          <div className="bg-amber-500/10 border-b border-amber-500/30 px-4 py-1.5 flex items-center justify-between text-xs text-amber-800 font-mono">
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
+              <span>
+                <strong>OFFLINE / STANDALONE MODE:</strong> Displaying static demo seed data. Live database mutations require the active backend.
+              </span>
+            </span>
+            <button
+              onClick={handleManualRetry}
+              disabled={isRetrying}
+              className="text-amber-900 font-bold underline hover:text-amber-700 ml-3"
+            >
+              {isRetrying ? 'Connecting...' : 'Reconnect Live Backend'}
+            </button>
+          </div>
+        )}
+
         {/* Dynamic View Body Container */}
         <main className="flex-1 overflow-y-auto p-5 scrollbar-thin scrollbar-thumb-slate-300">
           {currentTab === 'overview' && (
