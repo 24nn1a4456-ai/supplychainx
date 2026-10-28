@@ -1,0 +1,1909 @@
+{
+  "suppliers": [
+    {
+      "id": "sup-1",
+      "code": "NSM-TW",
+      "name": "NanoSilicon Microelectronics",
+      "contactName": "Chen Wei",
+      "email": "operations@nanosilicon-tw.com",
+      "phone": "+886-3-5778899",
+      "country": "Taiwan",
+      "city": "Hsinchu",
+      "coordinates": {
+        "lat": 24.8138,
+        "lng": 120.9675
+      },
+      "productsSupplied": [
+        "MCU-9021",
+        "PMIC-440",
+        "FPGA-700"
+      ],
+      "dailyCapacity": 2500,
+      "leadTimeDays": 4,
+      "reliabilityScore": 94,
+      "costPerUnit": 42,
+      "operationalStatus": "disrupted",
+      "contractTier": "Primary",
+      "createdAt": "2026-10-27T17:51:19.557Z",
+      "updatedAt": "2026-10-27T17:51:19.571Z",
+      "outageReason": "Unscheduled Cleanroom Fab Power Grid Malfunction & 5-Day Nitrogen Pipeline Maintenance",
+      "outageRemainingDays": 5
+    },
+    {
+      "id": "sup-2",
+      "code": "APEX-SG",
+      "name": "Apex Semiconductor Pte Ltd",
+      "contactName": "Sanjay Kumar",
+      "email": "orders@apex-semi.sg",
+      "phone": "+65-6899-2345",
+      "country": "Singapore",
+      "city": "Singapore",
+      "coordinates": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "productsSupplied": [
+        "MCU-9021",
+        "PMIC-440"
+      ],
+      "dailyCapacity": 1800,
+      "leadTimeDays": 2,
+      "reliabilityScore": 99.5,
+      "costPerUnit": 49.5,
+      "operationalStatus": "active",
+      "contractTier": "Secondary",
+      "createdAt": "2026-10-27T17:51:19.557Z",
+      "updatedAt": "2026-10-27T17:51:25.637Z"
+    },
+    {
+      "id": "sup-3",
+      "code": "BAV-DE",
+      "name": "Bavaria Power & Logic GmbH",
+      "contactName": "Klaus Fischer",
+      "email": "vertrieb@bavaria-power.de",
+      "phone": "+49-89-636400",
+      "country": "Germany",
+      "city": "Munich",
+      "coordinates": {
+        "lat": 48.1351,
+        "lng": 11.582
+      },
+      "productsSupplied": [
+        "PMIC-440",
+        "SENS-200",
+        "CAN-CTRL-99"
+      ],
+      "dailyCapacity": 3000,
+      "leadTimeDays": 5,
+      "reliabilityScore": 96,
+      "costPerUnit": 38,
+      "operationalStatus": "active",
+      "contractTier": "Primary",
+      "createdAt": "2026-10-27T17:51:19.557Z",
+      "updatedAt": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "sup-4",
+      "code": "VORTEX-US",
+      "name": "Vortex Precision Circuits",
+      "contactName": "Sarah Jenkins",
+      "email": "sjenkins@vortexcircuits.com",
+      "phone": "+1-512-555-0199",
+      "country": "United States",
+      "city": "Austin, TX",
+      "coordinates": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "productsSupplied": [
+        "MCU-9021",
+        "FPGA-700",
+        "CAN-CTRL-99"
+      ],
+      "dailyCapacity": 1200,
+      "leadTimeDays": 1,
+      "reliabilityScore": 92,
+      "costPerUnit": 58,
+      "operationalStatus": "active",
+      "contractTier": "Secondary",
+      "createdAt": "2026-10-27T17:51:19.557Z",
+      "updatedAt": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "sup-5",
+      "code": "TOKYO-JP",
+      "name": "Kyoto Advanced Sensors Corp",
+      "contactName": "Kenji Sato",
+      "email": "supply@kyotosensors.co.jp",
+      "phone": "+81-75-344-9000",
+      "country": "Japan",
+      "city": "Kyoto",
+      "coordinates": {
+        "lat": 35.0116,
+        "lng": 135.7681
+      },
+      "productsSupplied": [
+        "SENS-200",
+        "IMU-9AXIS"
+      ],
+      "dailyCapacity": 4000,
+      "leadTimeDays": 3,
+      "reliabilityScore": 99,
+      "costPerUnit": 22.5,
+      "operationalStatus": "active",
+      "contractTier": "Primary",
+      "createdAt": "2026-10-27T17:51:19.557Z",
+      "updatedAt": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "sup-csv-1793123485653-0",
+      "code": "NOVASYS-DE",
+      "name": "'=cmd|\"/C calc\"!A0",
+      "contactName": "Procurement Desk",
+      "email": "procurement@novasys-de.com",
+      "phone": "'+1-555-0199",
+      "country": "Germany",
+      "city": "Dresden",
+      "coordinates": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "productsSupplied": [
+        "MCU-9021",
+        "SENSOR-404"
+      ],
+      "dailyCapacity": 1500,
+      "leadTimeDays": 4,
+      "reliabilityScore": 97,
+      "costPerUnit": 52,
+      "operationalStatus": "active",
+      "contractTier": "Secondary",
+      "createdAt": "2026-10-27T17:51:25.653Z",
+      "updatedAt": "2026-10-27T17:51:25.653Z"
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "wh-1",
+      "code": "WH-OAK",
+      "name": "Pacific Hub Warehouse - Oakland",
+      "city": "Oakland, CA",
+      "country": "United States",
+      "coordinates": {
+        "lat": 37.8044,
+        "lng": -122.2712
+      },
+      "capacityUnits": 150000,
+      "utilizedUnits": 112000,
+      "status": "operational",
+      "tempControlled": true,
+      "dockDoors": 24
+    },
+    {
+      "id": "wh-2",
+      "code": "WH-CHI",
+      "name": "Midwest Logistics Center - Chicago",
+      "city": "Chicago, IL",
+      "country": "United States",
+      "coordinates": {
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "capacityUnits": 200000,
+      "utilizedUnits": 168000,
+      "status": "operational",
+      "tempControlled": true,
+      "dockDoors": 36
+    },
+    {
+      "id": "wh-3",
+      "code": "WH-RTD",
+      "name": "Euro-Gateway Logistics - Rotterdam",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "coordinates": {
+        "lat": 51.9244,
+        "lng": 4.4777
+      },
+      "capacityUnits": 180000,
+      "utilizedUnits": 134000,
+      "status": "operational",
+      "tempControlled": true,
+      "dockDoors": 30
+    },
+    {
+      "id": "wh-4",
+      "code": "WH-SIN",
+      "name": "Asia-Pacific Regional Depo - Singapore",
+      "city": "Jurong",
+      "country": "Singapore",
+      "coordinates": {
+        "lat": 1.3329,
+        "lng": 103.7436
+      },
+      "capacityUnits": 120000,
+      "utilizedUnits": 88000,
+      "status": "operational",
+      "tempControlled": true,
+      "dockDoors": 20
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-1",
+      "warehouseId": "wh-1",
+      "warehouseName": "Pacific Hub Warehouse - Oakland",
+      "sku": "MCU-9021",
+      "productName": "Automotive Grade Microcontroller 32-bit",
+      "category": "Semiconductor / MCU",
+      "onHandQuantity": 7800,
+      "reservedQuantity": 2800,
+      "availableQuantity": 5000,
+      "safetyStock": 4000,
+      "reorderThreshold": 5000,
+      "unitCost": 42,
+      "dailyConsumptionRate": 1500,
+      "coverageDays": 5.2,
+      "lastAudited": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "inv-2",
+      "warehouseId": "wh-2",
+      "warehouseName": "Midwest Logistics Center - Chicago",
+      "sku": "MCU-9021",
+      "productName": "Automotive Grade Microcontroller 32-bit",
+      "category": "Semiconductor / MCU",
+      "onHandQuantity": 2400,
+      "reservedQuantity": 1200,
+      "availableQuantity": 1200,
+      "safetyStock": 2500,
+      "reorderThreshold": 3500,
+      "unitCost": 42,
+      "dailyConsumptionRate": 600,
+      "coverageDays": 4,
+      "lastAudited": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "inv-3",
+      "warehouseId": "wh-4",
+      "warehouseName": "Asia-Pacific Regional Depo - Singapore",
+      "sku": "MCU-9021",
+      "productName": "Automotive Grade Microcontroller 32-bit",
+      "category": "Semiconductor / MCU",
+      "onHandQuantity": 6500,
+      "reservedQuantity": 2000,
+      "availableQuantity": 4500,
+      "safetyStock": 3000,
+      "reorderThreshold": 4000,
+      "unitCost": 42,
+      "dailyConsumptionRate": 700,
+      "coverageDays": 9.3,
+      "lastAudited": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "inv-4",
+      "warehouseId": "wh-1",
+      "warehouseName": "Pacific Hub Warehouse - Oakland",
+      "sku": "PMIC-440",
+      "productName": "Power Management Integrated Circuit",
+      "category": "Power Electronics",
+      "onHandQuantity": 18000,
+      "reservedQuantity": 6000,
+      "availableQuantity": 12000,
+      "safetyStock": 8000,
+      "reorderThreshold": 10000,
+      "unitCost": 14.5,
+      "dailyConsumptionRate": 1200,
+      "coverageDays": 15,
+      "lastAudited": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "inv-5",
+      "warehouseId": "wh-3",
+      "warehouseName": "Euro-Gateway Logistics - Rotterdam",
+      "sku": "SENS-200",
+      "productName": "High-Precision LiDAR Optical Sensor",
+      "category": "Optoelectronics",
+      "onHandQuantity": 9500,
+      "reservedQuantity": 3500,
+      "availableQuantity": 6000,
+      "safetyStock": 4000,
+      "reorderThreshold": 5500,
+      "unitCost": 75,
+      "dailyConsumptionRate": 500,
+      "coverageDays": 19,
+      "lastAudited": "2026-10-27T17:51:19.557Z"
+    },
+    {
+      "id": "inv-6",
+      "warehouseId": "wh-2",
+      "warehouseName": "Midwest Logistics Center - Chicago",
+      "sku": "FPGA-700",
+      "productName": "Reconfigurable Logic Array 700k Gates",
+      "category": "Semiconductor / FPGA",
+      "onHandQuantity": 2200,
+      "reservedQuantity": 1800,
+      "availableQuantity": 400,
+      "safetyStock": 1500,
+      "reorderThreshold": 2000,
+      "unitCost": 110,
+      "dailyConsumptionRate": 250,
+      "coverageDays": 8.8,
+      "lastAudited": "2026-10-27T17:51:19.557Z"
+    }
+  ],
+  "inventoryMovements": [
+    {
+      "id": "mov-1793123485635-1",
+      "sku": "MCU-9021",
+      "productName": "Automotive Grade Microcontroller 32-bit",
+      "sourceWarehouseId": "wh-2",
+      "sourceWarehouseName": "Midwest Logistics Center - Chicago",
+      "destWarehouseId": "wh-1",
+      "destWarehouseName": "Pacific Hub Warehouse - Oakland",
+      "quantity": 1800,
+      "timestamp": "2026-10-27T17:51:25.635Z",
+      "type": "crisis_reallocation",
+      "status": "in_transit",
+      "referenceId": "plan-1793123485595-0"
+    }
+  ],
+  "customerOrders": [
+    {
+      "id": "ord-101",
+      "orderNumber": "SO-89211",
+      "customerName": "AeroDrive Autonomous Systems",
+      "tier": "Tier 1 Critical",
+      "priority": "critical",
+      "items": [
+        {
+          "sku": "MCU-9021",
+          "productName": "Automotive Grade MCU",
+          "quantity": 2400,
+          "unitPrice": 125
+        }
+      ],
+      "totalValue": 300000,
+      "orderDate": "2026-10-22T10:00:00Z",
+      "deadline": "2026-10-31T17:00:00Z",
+      "fulfillmentStatus": "in_production",
+      "deliveryStatus": "on_schedule",
+      "progressPercent": 70,
+      "destinationCity": "Detroit, MI",
+      "destinationCountry": "United States"
+    },
+    {
+      "id": "ord-102",
+      "orderNumber": "SO-89212",
+      "customerName": "MedPulse Critical Care Robotics",
+      "tier": "Tier 1 Critical",
+      "priority": "critical",
+      "items": [
+        {
+          "sku": "MCU-9021",
+          "productName": "Automotive Grade MCU",
+          "quantity": 1200,
+          "unitPrice": 150
+        }
+      ],
+      "totalValue": 180000,
+      "orderDate": "2026-10-23T14:30:00Z",
+      "deadline": "2026-11-02T12:00:00Z",
+      "fulfillmentStatus": "in_production",
+      "deliveryStatus": "on_schedule",
+      "progressPercent": 55,
+      "destinationCity": "Boston, MA",
+      "destinationCountry": "United States"
+    },
+    {
+      "id": "ord-103",
+      "orderNumber": "SO-89215",
+      "customerName": "Nordic EV Mobility Group",
+      "tier": "Tier 2 Strategic",
+      "priority": "high",
+      "items": [
+        {
+          "sku": "PMIC-440",
+          "productName": "Power Management IC",
+          "quantity": 3000,
+          "unitPrice": 35
+        },
+        {
+          "sku": "SENS-200",
+          "productName": "LiDAR Sensor",
+          "quantity": 500,
+          "unitPrice": 180
+        }
+      ],
+      "totalValue": 195000,
+      "orderDate": "2026-10-20T08:15:00Z",
+      "deadline": "2026-11-05T18:00:00Z",
+      "fulfillmentStatus": "in_production",
+      "deliveryStatus": "on_schedule",
+      "progressPercent": 65,
+      "destinationCity": "Gothenburg",
+      "destinationCountry": "Sweden"
+    },
+    {
+      "id": "ord-104",
+      "orderNumber": "SO-89219",
+      "customerName": "Pacific Smart Drones Corp",
+      "tier": "Tier 3 Standard",
+      "priority": "medium",
+      "items": [
+        {
+          "sku": "MCU-9021",
+          "productName": "Automotive Grade MCU",
+          "quantity": 800,
+          "unitPrice": 110
+        }
+      ],
+      "totalValue": 88000,
+      "orderDate": "2026-10-25T11:00:00Z",
+      "deadline": "2026-11-10T17:00:00Z",
+      "fulfillmentStatus": "in_production",
+      "deliveryStatus": "on_schedule",
+      "progressPercent": 20,
+      "destinationCity": "San Jose, CA",
+      "destinationCountry": "United States"
+    },
+    {
+      "id": "ord-105",
+      "orderNumber": "SO-89201",
+      "customerName": "Helix Industrial Automation",
+      "tier": "Tier 2 Strategic",
+      "priority": "high",
+      "items": [
+        {
+          "sku": "FPGA-700",
+          "productName": "Logic Array 700k",
+          "quantity": 600,
+          "unitPrice": 240
+        }
+      ],
+      "totalValue": 144000,
+      "orderDate": "2026-10-18T09:00:00Z",
+      "deadline": "2026-10-29T17:00:00Z",
+      "fulfillmentStatus": "fulfilled",
+      "deliveryStatus": "delivered",
+      "progressPercent": 100,
+      "destinationCity": "Stuttgart",
+      "destinationCountry": "Germany"
+    }
+  ],
+  "productionLines": [
+    {
+      "id": "prod-1",
+      "code": "LINE-FREMONT-A",
+      "lineName": "ECU Main Assembly Line 1",
+      "facilityName": "Fremont Advanced Manufacturing Plant",
+      "facilityLocation": {
+        "lat": 37.5485,
+        "lng": -121.9886
+      },
+      "productSku": "ECU-AUTO-ADV",
+      "productName": "Autonomous Vehicle ECU Tier 4",
+      "dailyCapacity": 1500,
+      "plannedOutput": 1500,
+      "currentDailyOutput": 1500,
+      "status": "operational",
+      "requiredMaterials": [
+        {
+          "sku": "MCU-9021",
+          "unitsPerProduct": 1
+        },
+        {
+          "sku": "PMIC-440",
+          "unitsPerProduct": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-2",
+      "code": "LINE-AUSTIN-B",
+      "lineName": "Robotic Controller Cell 3",
+      "facilityName": "Austin Robotics Tech Center",
+      "facilityLocation": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "productSku": "ROBOT-CTRL-PRO",
+      "productName": "Surgical & Industrial Robot Hub",
+      "dailyCapacity": 600,
+      "plannedOutput": 600,
+      "currentDailyOutput": 600,
+      "status": "operational",
+      "requiredMaterials": [
+        {
+          "sku": "MCU-9021",
+          "unitsPerProduct": 1
+        },
+        {
+          "sku": "FPGA-700",
+          "unitsPerProduct": 1
+        }
+      ]
+    },
+    {
+      "id": "prod-3",
+      "code": "LINE-MUNICH-C",
+      "lineName": "Sensor Integration Line Alpha",
+      "facilityName": "Munich Precision Avionics",
+      "facilityLocation": {
+        "lat": 48.1351,
+        "lng": 11.582
+      },
+      "productSku": "AVIONIC-SENS-SYS",
+      "productName": "LiDAR & Vision Avionics Subsystem",
+      "dailyCapacity": 800,
+      "plannedOutput": 800,
+      "currentDailyOutput": 800,
+      "status": "operational",
+      "requiredMaterials": [
+        {
+          "sku": "SENS-200",
+          "unitsPerProduct": 1
+        },
+        {
+          "sku": "PMIC-440",
+          "unitsPerProduct": 1
+        }
+      ]
+    }
+  ],
+  "shipments": [
+    {
+      "id": "ship-air-1793123485635",
+      "trackingNumber": "TRK-AIR-SQ-APEX-9021",
+      "carrier": "Singapore Airlines Cargo (SQ-7972)",
+      "originName": "Singapore Changi (SIN)",
+      "originCoords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "destName": "San Francisco Int Airport (SFO)",
+      "destCoords": {
+        "lat": 37.6213,
+        "lng": -122.379
+      },
+      "transportMode": "Air Freight",
+      "status": "in_transit",
+      "departedAt": "2026-10-27T17:51:25.635Z",
+      "estimatedArrival": "2026-10-28T19:51:25.635Z",
+      "originalEta": "2026-10-28T19:51:25.635Z",
+      "delayHours": 0,
+      "cargoValue": 148500,
+      "transportCost": 13600,
+      "items": [
+        {
+          "sku": "MCU-9021",
+          "quantity": 3000
+        }
+      ]
+    },
+    {
+      "id": "ship-exp-1793123485635",
+      "trackingNumber": "TRK-ROAD-CHIOAK-EXPRESS",
+      "carrier": "Swift Expedited Dedicated Dual-Driver",
+      "originName": "Chicago Logistics Hub",
+      "originCoords": {
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "destName": "Pacific Hub Oakland / Fremont Plant",
+      "destCoords": {
+        "lat": 37.8044,
+        "lng": -122.2712
+      },
+      "transportMode": "Express Road",
+      "status": "in_transit",
+      "departedAt": "2026-10-27T17:51:25.635Z",
+      "estimatedArrival": "2026-10-29T05:51:25.635Z",
+      "originalEta": "2026-10-29T05:51:25.635Z",
+      "delayHours": 0,
+      "cargoValue": 75600,
+      "transportCost": 4200,
+      "items": [
+        {
+          "sku": "MCU-9021",
+          "quantity": 1800
+        }
+      ]
+    },
+    {
+      "id": "ship-301",
+      "trackingNumber": "TRK-PAC-8849",
+      "carrier": "OceanBridge Logistics (Vessel: Ever Glory)",
+      "originName": "Kaohsiung Port, Taiwan",
+      "originCoords": {
+        "lat": 22.6163,
+        "lng": 120.2981
+      },
+      "destName": "Port of Oakland, CA",
+      "destCoords": {
+        "lat": 37.8044,
+        "lng": -122.2712
+      },
+      "transportMode": "Ocean Cargo",
+      "status": "in_transit",
+      "departedAt": "2026-10-18T04:00:00Z",
+      "estimatedArrival": "2026-11-01T14:00:00Z",
+      "originalEta": "2026-10-31T08:00:00Z",
+      "delayHours": 30,
+      "cargoValue": 420000,
+      "transportCost": 14500,
+      "weatherRiskAlert": "Typhoon Malakas passing Luzon Strait causing 12-meter swells",
+      "items": [
+        {
+          "sku": "MCU-9021",
+          "quantity": 10000
+        }
+      ]
+    },
+    {
+      "id": "ship-302",
+      "trackingNumber": "TRK-AIR-1092",
+      "carrier": "Cathay Cargo Express (Flight CX-882)",
+      "originName": "Taipei Taoyuan (TPE)",
+      "originCoords": {
+        "lat": 25.0797,
+        "lng": 121.2342
+      },
+      "destName": "San Francisco Int Airport (SFO)",
+      "destCoords": {
+        "lat": 37.6213,
+        "lng": -122.379
+      },
+      "transportMode": "Air Freight",
+      "status": "in_transit",
+      "departedAt": "2026-10-26T22:00:00Z",
+      "estimatedArrival": "2026-10-27T18:00:00Z",
+      "originalEta": "2026-10-27T18:00:00Z",
+      "delayHours": 0,
+      "cargoValue": 185000,
+      "transportCost": 18200,
+      "items": [
+        {
+          "sku": "PMIC-440",
+          "quantity": 5000
+        }
+      ]
+    },
+    {
+      "id": "ship-303",
+      "trackingNumber": "TRK-ROAD-771",
+      "carrier": "Heartland Expedited Freight",
+      "originName": "Chicago Logistics Center",
+      "originCoords": {
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "destName": "Fremont Plant, CA",
+      "destCoords": {
+        "lat": 37.5485,
+        "lng": -121.9886
+      },
+      "transportMode": "Express Road",
+      "status": "in_transit",
+      "departedAt": "2026-10-26T06:00:00Z",
+      "estimatedArrival": "2026-10-28T16:00:00Z",
+      "originalEta": "2026-10-28T16:00:00Z",
+      "delayHours": 0,
+      "cargoValue": 92000,
+      "transportCost": 4800,
+      "items": [
+        {
+          "sku": "FPGA-700",
+          "quantity": 800
+        }
+      ]
+    }
+  ],
+  "crises": [
+    {
+      "id": "crisis-1793123479572-17",
+      "incidentCode": "CRX-SUP-NSM-TW",
+      "title": "Supplier Failure: NanoSilicon Microelectronics (Taiwan) Outage",
+      "type": "supplier_failure",
+      "severity": "Critical",
+      "status": "verified_resolved",
+      "detectedAt": "2026-10-27T17:51:19.572Z",
+      "source": "Automated Supplier Telemetry & EDI Feed",
+      "affectedEntities": [
+        {
+          "entityType": "Supplier",
+          "entityId": "sup-1",
+          "name": "NanoSilicon Microelectronics"
+        },
+        {
+          "entityType": "Component SKU",
+          "entityId": "MCU-9021",
+          "name": "MCU-9021"
+        },
+        {
+          "entityType": "Component SKU",
+          "entityId": "PMIC-440",
+          "name": "PMIC-440"
+        },
+        {
+          "entityType": "Component SKU",
+          "entityId": "FPGA-700",
+          "name": "FPGA-700"
+        }
+      ],
+      "evidence": "Unscheduled Cleanroom Fab Power Grid Malfunction & 5-Day Nitrogen Pipeline Maintenance",
+      "estimatedFinancialImpact": 525000,
+      "confidence": 0.98,
+      "deduplicationKey": "supplier_outage_sup-1_disrupted",
+      "rootCauseSummary": "Operational Disruption Briefing for CRX-SUP-NSM-TW:\nNanoSilicon Microelectronics (Taiwan) experienced an abrupt fabrication outage affecting automotive microcontroller MCU-9021. With Pacific Hub inventory at 3,000 units and daily consumption at 1,500 units/day, existing stock covers only 2.0 days of production, posing an immediate line-down threat to Assembly Line 1 within 48 hours.\n\nThe Autonomous Central Orchestrator evaluated multi-agent inputs and synthesized the Hybrid Optimal Plan:\n1. Dispatch an immediate inter-warehouse stock transfer of 1,800 units from Midwest Logistics Center (Chicago) via dedicated road freight (36-hour transit, $4,200).\n2. Issue an emergency purchase order to Apex Semiconductor (Singapore) for 3,000 units with priority air cargo booking via Singapore Airlines ($48,600 total procurement & freight).\n3. Throttle Fremont Line 1 production to 75% for 48 hours to extend current buffer by 1.8 days, aligning perfectly with incoming shipments.\n\nFinancial Assessment & Recommendation:\nTotal recovery investment is $52,800. This expenditure averts $520,000 in contractual customer SLA delay penalties and factory idle costs, delivering a 9.85x return on resilience investment while protecting 100% of Tier 1 deliveries to AeroDrive and MedPulse. Immediate human manager authorization is recommended.",
+      "isSimulated": true,
+      "resolvedAt": "2026-10-27T17:51:25.637Z"
+    },
+    {
+      "id": "crisis-1793123479572-325",
+      "incidentCode": "CRX-INV-MCU-9021",
+      "title": "Stockout Crisis: MCU-9021 at Pacific Hub Warehouse - Oakland",
+      "type": "inventory_shortage",
+      "severity": "Critical",
+      "status": "detected",
+      "detectedAt": "2026-10-27T17:51:19.572Z",
+      "source": "Inventory Velocity & Burn-Rate Monitor",
+      "affectedEntities": [
+        {
+          "entityType": "InventoryItem",
+          "entityId": "inv-1",
+          "name": "MCU-9021 (Automotive Grade Microcontroller 32-bit)"
+        },
+        {
+          "entityType": "Warehouse",
+          "entityId": "wh-1",
+          "name": "Pacific Hub Warehouse - Oakland"
+        }
+      ],
+      "evidence": "Current on-hand: 3000 units vs. daily consumption of 1500/day yields only 2.0 days of coverage. Reorder threshold is 5000 units.",
+      "estimatedFinancialImpact": 630000,
+      "confidence": 0.99,
+      "deduplicationKey": "inventory_shortage_wh-1_MCU-9021",
+      "rootCauseSummary": "Safety stock depleted below critical buffer. Inbound replenishment pipeline insufficient to sustain active assembly lines.",
+      "isSimulated": true
+    },
+    {
+      "id": "crisis-1793123479572-534",
+      "incidentCode": "CRX-LOG-TRK-PAC-8849",
+      "title": "Transport Disruption: OceanBridge Logistics (Vessel: Ever Glory) delayed by 30h",
+      "type": "transport_delay",
+      "severity": "Medium",
+      "status": "detected",
+      "detectedAt": "2026-10-27T17:51:19.572Z",
+      "source": "Global AIS Vessel Tracking & Freight API",
+      "affectedEntities": [
+        {
+          "entityType": "Shipment",
+          "entityId": "ship-301",
+          "name": "TRK-PAC-8849"
+        },
+        {
+          "entityType": "Shipment Cargo",
+          "entityId": "MCU-9021",
+          "name": "10000x MCU-9021"
+        }
+      ],
+      "evidence": "Route: Kaohsiung Port, Taiwan -> Port of Oakland, CA. Delay: 30 hours due to Typhoon Malakas passing Luzon Strait causing 12-meter swells. Cargo value: $420,000.",
+      "estimatedFinancialImpact": 63000,
+      "confidence": 0.95,
+      "deduplicationKey": "shipment_delay_ship-301",
+      "rootCauseSummary": "Severe maritime conditions and port queuing delaying arrival past factory need date.",
+      "isSimulated": true
+    },
+    {
+      "id": "crisis-1793123479577-25",
+      "incidentCode": "CRX-ORD-SO-89211",
+      "title": "Customer SLA Violation Risk: AeroDrive Autonomous Systems (SO-89211)",
+      "type": "order_delivery_risk",
+      "severity": "Critical",
+      "status": "detected",
+      "detectedAt": "2026-10-27T17:51:19.572Z",
+      "source": "Customer Order Commitment Engine",
+      "affectedEntities": [
+        {
+          "entityType": "CustomerOrder",
+          "entityId": "ord-101",
+          "name": "SO-89211 (AeroDrive Autonomous Systems)"
+        }
+      ],
+      "evidence": "Order value $300,000 with deadline 2026-10-31T17:00:00Z faces immediate line-down penalty of $50,000/day if delayed.",
+      "estimatedFinancialImpact": 120000,
+      "confidence": 0.96,
+      "deduplicationKey": "customer_order_risk_ord-101",
+      "rootCauseSummary": "Required component allocation missing due to upstream semiconductor supplier outage.",
+      "isSimulated": true
+    },
+    {
+      "id": "crisis-1793123479577-122",
+      "incidentCode": "CRX-ORD-SO-89212",
+      "title": "Customer SLA Violation Risk: MedPulse Critical Care Robotics (SO-89212)",
+      "type": "order_delivery_risk",
+      "severity": "Critical",
+      "status": "detected",
+      "detectedAt": "2026-10-27T17:51:19.572Z",
+      "source": "Customer Order Commitment Engine",
+      "affectedEntities": [
+        {
+          "entityType": "CustomerOrder",
+          "entityId": "ord-102",
+          "name": "SO-89212 (MedPulse Critical Care Robotics)"
+        }
+      ],
+      "evidence": "Order value $180,000 with deadline 2026-11-02T12:00:00Z faces immediate line-down penalty of $50,000/day if delayed.",
+      "estimatedFinancialImpact": 72000,
+      "confidence": 0.96,
+      "deduplicationKey": "customer_order_risk_ord-102",
+      "rootCauseSummary": "Required component allocation missing due to upstream semiconductor supplier outage.",
+      "isSimulated": true
+    }
+  ],
+  "agentRuns": [
+    {
+      "id": "run-sup-1793123479587",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.587Z",
+      "agentName": "Supplier Agent",
+      "status": "completed",
+      "executionTimeMs": 1,
+      "findings": {
+        "affectedSkus": [
+          "MCU-9021",
+          "PMIC-440",
+          "FPGA-700"
+        ],
+        "evaluatedSuppliersCount": 5,
+        "qualifiedAlternatives": [
+          {
+            "id": "sup-2",
+            "code": "APEX-SG",
+            "name": "Apex Semiconductor Pte Ltd",
+            "country": "Singapore",
+            "city": "Singapore",
+            "dailyCapacity": 1800,
+            "leadTimeDays": 2,
+            "costPerUnit": 49.5,
+            "reliabilityScore": 98,
+            "matchingSkus": [
+              "MCU-9021",
+              "PMIC-440"
+            ],
+            "available5DayVolume": 9000,
+            "estimatedOrderCostFor3000Units": 148500
+          },
+          {
+            "id": "sup-3",
+            "code": "BAV-DE",
+            "name": "Bavaria Power & Logic GmbH",
+            "country": "Germany",
+            "city": "Munich",
+            "dailyCapacity": 3000,
+            "leadTimeDays": 5,
+            "costPerUnit": 38,
+            "reliabilityScore": 96,
+            "matchingSkus": [
+              "PMIC-440"
+            ],
+            "available5DayVolume": 15000,
+            "estimatedOrderCostFor3000Units": 114000
+          },
+          {
+            "id": "sup-4",
+            "code": "VORTEX-US",
+            "name": "Vortex Precision Circuits",
+            "country": "United States",
+            "city": "Austin, TX",
+            "dailyCapacity": 1200,
+            "leadTimeDays": 1,
+            "costPerUnit": 58,
+            "reliabilityScore": 92,
+            "matchingSkus": [
+              "MCU-9021",
+              "FPGA-700"
+            ],
+            "available5DayVolume": 6000,
+            "estimatedOrderCostFor3000Units": 174000
+          }
+        ],
+        "recommendedPrimaryAlternative": {
+          "id": "sup-2",
+          "code": "APEX-SG",
+          "name": "Apex Semiconductor Pte Ltd",
+          "country": "Singapore",
+          "city": "Singapore",
+          "dailyCapacity": 1800,
+          "leadTimeDays": 2,
+          "costPerUnit": 49.5,
+          "reliabilityScore": 98,
+          "matchingSkus": [
+            "MCU-9021",
+            "PMIC-440"
+          ],
+          "available5DayVolume": 9000,
+          "estimatedOrderCostFor3000Units": 148500
+        },
+        "secondaryBackup": {
+          "id": "sup-4",
+          "code": "VORTEX-US",
+          "name": "Vortex Precision Circuits",
+          "country": "United States",
+          "city": "Austin, TX",
+          "dailyCapacity": 1200,
+          "leadTimeDays": 1,
+          "costPerUnit": 58,
+          "reliabilityScore": 92,
+          "matchingSkus": [
+            "MCU-9021",
+            "FPGA-700"
+          ],
+          "available5DayVolume": 6000,
+          "estimatedOrderCostFor3000Units": 174000
+        }
+      },
+      "reasoning": "Evaluated 5 global suppliers. Found 3 qualified alternatives with active lines for MCU-9021, PMIC-440, FPGA-700. Apex Semiconductor (Singapore) provides the highest reliability (98%) and rapid 2-day lead time for emergency air shipments. Vortex Precision (Austin, US) provides onshore redundancy (1-day transit) with a 38% cost premium.",
+      "recommendations": [
+        "Initiate emergency purchase order with Apex Semiconductor (SG) for 3,000 units of MCU-9021 at $49.50/unit ($148,500 total).",
+        "Keep Vortex Precision (Austin, TX) on warm-standby for emergency buffer if Singapore air lane experiences customs delays."
+      ]
+    },
+    {
+      "id": "run-inv-1793123479587",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.587Z",
+      "agentName": "Inventory Agent",
+      "status": "completed",
+      "executionTimeMs": 0,
+      "findings": {
+        "targetSku": "MCU-9021",
+        "networkTotalStock": 13700,
+        "networkTotalReserved": 6000,
+        "networkTotalAvailable": 7700,
+        "criticalWarehouse": {
+          "id": "inv-1",
+          "warehouseId": "wh-1",
+          "warehouseName": "Pacific Hub Warehouse - Oakland",
+          "sku": "MCU-9021",
+          "productName": "Automotive Grade Microcontroller 32-bit",
+          "category": "Semiconductor / MCU",
+          "onHandQuantity": 7800,
+          "reservedQuantity": 2800,
+          "availableQuantity": 5000,
+          "safetyStock": 4000,
+          "reorderThreshold": 5000,
+          "unitCost": 42,
+          "dailyConsumptionRate": 1500,
+          "coverageDays": 5.2,
+          "lastAudited": "2026-10-27T17:51:19.557Z"
+        },
+        "criticalCoverageDays": 2,
+        "feasibleTransfers": [
+          {
+            "sourceWarehouse": "Midwest Logistics Center - Chicago",
+            "sourceWarehouseId": "wh-2",
+            "destinationWarehouse": "Pacific Hub Warehouse - Oakland",
+            "destWarehouseId": "wh-1",
+            "availableUnits": 3000,
+            "recommendedTransferQty": 1800,
+            "transitMode": "Express Road Freight",
+            "transitTimeDays": 2,
+            "estimatedTransferCost": 4200
+          },
+          {
+            "sourceWarehouse": "Asia-Pacific Regional Depo - Singapore",
+            "sourceWarehouseId": "wh-4",
+            "destinationWarehouse": "Pacific Hub Warehouse - Oakland",
+            "destWarehouseId": "wh-1",
+            "availableUnits": 4500,
+            "recommendedTransferQty": 2500,
+            "transitMode": "Air Cargo Express",
+            "transitTimeDays": 2.5,
+            "estimatedTransferCost": 11500
+          }
+        ]
+      },
+      "reasoning": "Inspected all 4 global distribution centers. Oakland warehouse has only 2 days of stock remaining (3000 units with 1,500 daily burn). However, Chicago warehouse has 3,000 unallocated units in reserve, and Singapore has 4,500 units. A 1,800-unit inter-warehouse transfer from Chicago will immediately extend Oakland's coverage by 1.2 days, and a Singapore transfer covers the full 5-day disruption window.",
+      "recommendations": [
+        "Execute emergency stock transfer of 1,800 MCU-9021 units from Midwest Center (Chicago) to Pacific Hub (Oakland).",
+        "Reserve 2,500 units at Singapore Hub for direct air routing to Fremont manufacturing plant."
+      ]
+    },
+    {
+      "id": "run-log-1793123479587",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.587Z",
+      "agentName": "Logistics Agent",
+      "status": "completed",
+      "executionTimeMs": 0,
+      "findings": {
+        "activeOceanCount": 1,
+        "activeAirCount": 1,
+        "delayedShipments": [
+          {
+            "id": "ship-301",
+            "trackingNumber": "TRK-PAC-8849",
+            "carrier": "OceanBridge Logistics (Vessel: Ever Glory)",
+            "originName": "Kaohsiung Port, Taiwan",
+            "originCoords": {
+              "lat": 22.6163,
+              "lng": 120.2981
+            },
+            "destName": "Port of Oakland, CA",
+            "destCoords": {
+              "lat": 37.8044,
+              "lng": -122.2712
+            },
+            "transportMode": "Ocean Cargo",
+            "status": "in_transit",
+            "departedAt": "2026-10-18T04:00:00Z",
+            "estimatedArrival": "2026-11-01T14:00:00Z",
+            "originalEta": "2026-10-31T08:00:00Z",
+            "delayHours": 30,
+            "cargoValue": 420000,
+            "transportCost": 14500,
+            "weatherRiskAlert": "Typhoon Malakas passing Luzon Strait causing 12-meter swells",
+            "items": [
+              {
+                "sku": "MCU-9021",
+                "quantity": 10000
+              }
+            ]
+          }
+        ],
+        "evaluatedFreightOptions": [
+          {
+            "mode": "Air Freight Charter",
+            "route": "Singapore (SIN) -> San Francisco (SFO)",
+            "carrier": "Singapore Airlines Cargo (SQ-7972)",
+            "transitHours": 28,
+            "costPerKg": 8.5,
+            "estimatedTotalCost": 18500,
+            "weatherRisk": "Low",
+            "reliabilityPct": 98,
+            "recommended": true
+          },
+          {
+            "mode": "Express Dedicated Road Team",
+            "route": "Chicago Logistics Hub -> Fremont Assembly Plant",
+            "carrier": "Swift Logistics Expedited Dual-Driver",
+            "transitHours": 36,
+            "costPerKg": 3.2,
+            "estimatedTotalCost": 4800,
+            "weatherRisk": "Low",
+            "reliabilityPct": 96,
+            "recommended": true
+          },
+          {
+            "mode": "Commercial Ocean Expedited",
+            "route": "Kaohsiung -> Long Beach Fast-Track",
+            "carrier": "Matson CLX Express",
+            "transitHours": 240,
+            "costPerKg": 1.1,
+            "estimatedTotalCost": 2400,
+            "weatherRisk": "High (Western Pacific Typhoon Season)",
+            "reliabilityPct": 78,
+            "recommended": false
+          }
+        ]
+      },
+      "reasoning": "Ocean transit is currently too slow and vulnerable to the active Western Pacific storm front (Shipment TRK-PAC-8849 delayed by 30 hours). To bridge the 5-day supplier gap, multi-modal routing is required: expedited dual-driver road freight from Chicago (36 hours) plus chartered air freight from Singapore (28 hours).",
+      "recommendations": [
+        "Book dedicated dual-driver road freight from Chicago to Fremont for immediate 36-hour delivery.",
+        "Book Singapore Airlines Cargo air freight allocation for 3,000 units from Apex Semiconductor."
+      ]
+    },
+    {
+      "id": "run-prd-1793123479588",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.588Z",
+      "agentName": "Production Agent",
+      "status": "completed",
+      "executionTimeMs": 1,
+      "findings": {
+        "affectedLines": [
+          {
+            "id": "prod-1",
+            "code": "LINE-FREMONT-A",
+            "lineName": "ECU Main Assembly Line 1",
+            "facilityName": "Fremont Advanced Manufacturing Plant",
+            "facilityLocation": {
+              "lat": 37.5485,
+              "lng": -121.9886
+            },
+            "productSku": "ECU-AUTO-ADV",
+            "productName": "Autonomous Vehicle ECU Tier 4",
+            "dailyCapacity": 1500,
+            "plannedOutput": 1500,
+            "currentDailyOutput": 1500,
+            "status": "operational",
+            "requiredMaterials": [
+              {
+                "sku": "MCU-9021",
+                "unitsPerProduct": 1
+              },
+              {
+                "sku": "PMIC-440",
+                "unitsPerProduct": 2
+              }
+            ]
+          },
+          {
+            "id": "prod-2",
+            "code": "LINE-AUSTIN-B",
+            "lineName": "Robotic Controller Cell 3",
+            "facilityName": "Austin Robotics Tech Center",
+            "facilityLocation": {
+              "lat": 30.2672,
+              "lng": -97.7431
+            },
+            "productSku": "ROBOT-CTRL-PRO",
+            "productName": "Surgical & Industrial Robot Hub",
+            "dailyCapacity": 600,
+            "plannedOutput": 600,
+            "currentDailyOutput": 600,
+            "status": "operational",
+            "requiredMaterials": [
+              {
+                "sku": "MCU-9021",
+                "unitsPerProduct": 1
+              },
+              {
+                "sku": "FPGA-700",
+                "unitsPerProduct": 1
+              }
+            ]
+          }
+        ],
+        "lineShutdownRiskWithoutAction": "Assembly Line 1 halts in 48 hours; idle labor penalty $120,000/day",
+        "proposedAdjustments": [
+          {
+            "lineId": "prod-1",
+            "lineName": "ECU Main Assembly Line 1",
+            "facilityName": "Fremont Advanced Manufacturing Plant",
+            "currentPlannedOutput": 1500,
+            "recommendedThrottledOutput": 1125,
+            "daysSavedWithThrottle": 1.8,
+            "reschedulingRecommendation": "Throttle line to 75% speed for 48 hours until expedited Chicago stock arrives, avoiding complete line shutdown ($120k/day idle cost)."
+          },
+          {
+            "lineId": "prod-2",
+            "lineName": "Robotic Controller Cell 3",
+            "facilityName": "Austin Robotics Tech Center",
+            "currentPlannedOutput": 600,
+            "recommendedThrottledOutput": 450,
+            "daysSavedWithThrottle": 1.8,
+            "reschedulingRecommendation": "Throttle line to 75% speed for 48 hours until expedited Chicago stock arrives, avoiding complete line shutdown ($120k/day idle cost)."
+          }
+        ]
+      },
+      "reasoning": "Assembly Line 1 (ECU Main Assembly) requires 1,500 MCU-9021 units per day. Without intervention, parts run out in 48 hours. By temporarily rebalancing shift output to 75% for 48 hours, inventory lifespan expands to 3.8 days, seamlessly linking with the incoming Chicago and Singapore shipments without full line stoppage.",
+      "recommendations": [
+        "Adjust Fremont Line 1 schedule to 75% capacity for 48 hours.",
+        "Prioritize batching for Tier 1 customer orders (SO-89211 and SO-89212)."
+      ]
+    },
+    {
+      "id": "run-ord-1793123479588",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.588Z",
+      "agentName": "Demand & Order Agent",
+      "status": "completed",
+      "executionTimeMs": 0,
+      "findings": {
+        "affectedOrdersCount": 3,
+        "totalAtRiskValue": 568000,
+        "tier1Count": 2,
+        "tier2Count": 0,
+        "tier3Count": 1,
+        "prioritizationPlan": [
+          {
+            "orderId": "ord-101",
+            "orderNumber": "SO-89211",
+            "customer": "AeroDrive Autonomous Systems",
+            "tier": "Tier 1 Critical",
+            "allocatedQuantity": 2400,
+            "slaProtected": true,
+            "penaltyAverted": 120000
+          },
+          {
+            "orderId": "ord-102",
+            "orderNumber": "SO-89212",
+            "customer": "MedPulse Critical Care Robotics",
+            "tier": "Tier 1 Critical",
+            "allocatedQuantity": 1200,
+            "slaProtected": true,
+            "penaltyAverted": 85000
+          },
+          {
+            "orderId": "ord-104",
+            "orderNumber": "SO-89219",
+            "customer": "Pacific Smart Drones Corp",
+            "tier": "Tier 3 Standard",
+            "allocatedQuantity": 0,
+            "slaProtected": false,
+            "action": "Notify customer of 4-day rescheduled shipping window without financial penalty."
+          }
+        ]
+      },
+      "reasoning": "Identified 3 customer orders totaling $568,000 depending on MCU-9021. Tier 1 customers AeroDrive ($300k) and MedPulse ($180k) hold strict contract delivery penalties ($50k/day). Available on-hand and incoming expedited units must be hard-reserved for Tier 1 orders first, while Tier 3 orders are deferred by 4 days within acceptable customer grace periods.",
+      "recommendations": [
+        "Hard-reserve 2,400 MCU-9021 units for AeroDrive Autonomous Systems (SO-89211).",
+        "Hard-reserve 1,200 MCU-9021 units for MedPulse Critical Care (SO-89212).",
+        "Re-assign delivery schedule of SO-89219 to November 14 with automated customer notification."
+      ]
+    },
+    {
+      "id": "run-rsk-1793123479588",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.588Z",
+      "agentName": "Risk Analysis Agent",
+      "status": "completed",
+      "executionTimeMs": 0,
+      "findings": {
+        "riskMatrix": {
+          "inactionRiskScore": 94,
+          "inactionFinancialExposure": 520000,
+          "inactionOperationalImpact": "Factory assembly stoppage within 48h, catastrophic customer SLA penalties, customer contract cancellation threat.",
+          "recoveryRiskScore": 18,
+          "recoveryFinancialExposure": 52800,
+          "roiRatio": 9.85,
+          "singleSourceDependencyScore": 88,
+          "postRecoveryResilienceScore": 92
+        },
+        "complianceAndAuditStatus": "Fully compliant with ISO 9001 and IATF 16949 automotive change management protocol."
+      },
+      "reasoning": "Cost-benefit analysis strongly favors immediate active recovery. Inaction cost is estimated at $520,000 ($205k SLA penalties + $240k line idle costs + customer churn risk). The proposed hybrid recovery costs $52,800, generating a 9.85x return on investment while protecting 100% of Tier 1 deliveries.",
+      "recommendations": [
+        "Approve recovery budget expenditure of $52,800.",
+        "Establish ongoing dual-sourcing quota (70% primary, 30% secondary) post-incident to eliminate future single-point-of-failure exposure."
+      ]
+    },
+    {
+      "id": "run-pln-1793123479588",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.588Z",
+      "agentName": "Recovery Planning Agent",
+      "status": "completed",
+      "executionTimeMs": 0,
+      "findings": {
+        "proposedActions": [
+          {
+            "id": "act-1-1793123479588",
+            "actionType": "split_purchase_order",
+            "description": "Issue Emergency Purchase Order to Apex Semiconductor (Singapore) for 3,000 MCU-9021 units",
+            "estimatedCost": 35000,
+            "targetEntity": "Apex Semiconductor Pte Ltd (SG)",
+            "details": {
+              "supplierCode": "APEX-SG",
+              "sku": "MCU-9021",
+              "quantity": 3000,
+              "unitCost": 49.5,
+              "leadTimeDays": 2
+            },
+            "status": "proposed"
+          },
+          {
+            "id": "act-2-1793123479588",
+            "actionType": "inter_warehouse_transfer",
+            "description": "Execute Inter-Warehouse Stock Transfer: 1,800 MCU-9021 units from Chicago Center to Pacific Hub (Oakland)",
+            "estimatedCost": 4200,
+            "targetEntity": "Pacific Hub Warehouse - Oakland",
+            "details": {
+              "sourceWarehouseId": "wh-2",
+              "sourceName": "Midwest Logistics Center - Chicago",
+              "destWarehouseId": "wh-1",
+              "destName": "Pacific Hub Warehouse - Oakland",
+              "sku": "MCU-9021",
+              "quantity": 1800,
+              "carrier": "Swift Expedited Road Freight",
+              "etaHours": 36
+            },
+            "status": "proposed"
+          },
+          {
+            "id": "act-3-1793123479588",
+            "actionType": "expedite_air_freight",
+            "description": "Book Singapore Airlines Priority Air Cargo for 3,000 units from Singapore to San Francisco",
+            "estimatedCost": 13600,
+            "targetEntity": "Cathay Cargo Express",
+            "details": {
+              "flightRoute": "SIN -> SFO",
+              "transitHours": 26,
+              "sku": "MCU-9021",
+              "quantity": 3000
+            },
+            "status": "proposed"
+          },
+          {
+            "id": "act-4-1793123479588",
+            "actionType": "reallocate_inventory_priority",
+            "description": "Reallocate Available & Incoming MCU-9021 stock to Tier 1 Critical Customer Orders (SO-89211 & SO-89212)",
+            "estimatedCost": 0,
+            "targetEntity": "Customer Order Commitment Engine",
+            "details": {
+              "ordersProtected": [
+                "SO-89211",
+                "SO-89212"
+              ],
+              "deferredOrder": "SO-89219"
+            },
+            "status": "proposed"
+          },
+          {
+            "id": "act-5-1793123479588",
+            "actionType": "reschedule_production",
+            "description": "Throttle Fremont Assembly Line 1 to 75% for 48 hours to preserve buffer stock until arrival",
+            "estimatedCost": 0,
+            "targetEntity": "Fremont Advanced Manufacturing Plant",
+            "details": {
+              "lineCode": "LINE-FREMONT-A",
+              "throttleRate": 0.75,
+              "durationHours": 48
+            },
+            "status": "proposed"
+          }
+        ],
+        "totalEstimatedCost": 52800,
+        "leadTimeToReliefHours": 36,
+        "slaProtectionPercent": 100
+      },
+      "reasoning": "Synthesized multi-agent recommendations into an integrated 5-point action plan. Combining an immediate 36-hour Chicago truck transfer with Singapore air cargo and a temporary 75% production throttle bridges the 5-day supplier outage with zero customer line-down penalties.",
+      "recommendations": [
+        "Submit 5-point recovery plan to Human Approval Center for Operations Director sign-off.",
+        "Lock plan version and initiate automated pre-flight verification checks."
+      ]
+    },
+    {
+      "id": "run-ver-1793123479588",
+      "incidentId": "crisis-1793123479572-17",
+      "timestamp": "2026-10-27T17:51:19.588Z",
+      "agentName": "Verification Agent",
+      "status": "completed",
+      "executionTimeMs": 0,
+      "findings": {
+        "verificationRules": [
+          "Inventory coverage days for MCU-9021 at Pacific Hub must exceed 5.0 days after delivery.",
+          "Alternative purchase order to Apex Semiconductor must be in confirmed/active state.",
+          "Inter-warehouse transfer shipment TRK-ROAD-CHIOAK must be in transit or delivered.",
+          "Customer orders SO-89211 and SO-89212 must be restored from at_risk to in_production/on_schedule.",
+          "Zero residual line-down risk for Fremont Assembly Line 1."
+        ],
+        "preFlightStatus": "Ready for post-execution database query."
+      },
+      "reasoning": "Formulated rigorous 5-point database verification criteria. After execution, the Verification Agent will directly query the transactional database state rather than accepting status claims.",
+      "recommendations": [
+        "Require all 5 database state criteria to return true before marking crisis as Resolved."
+      ]
+    }
+  ],
+  "recoveryPlans": [
+    {
+      "id": "plan-1793123485595-0",
+      "incidentId": "crisis-1793123479572-17",
+      "planVersion": 1,
+      "title": "Plan A: Hybrid Optimal (Dual-Channel Stock Transfer & Express Air Procurement)",
+      "strategyType": "hybrid_optimal",
+      "optimizationEngine": "Google OR-Tools MILP Solver & Multi-Criteria Engine",
+      "objectiveScores": {
+        "totalRecoveryCost": 52800,
+        "estimatedLeadTimeDays": 1.5,
+        "affectedOrdersResolved": 3,
+        "serviceLevelScore": 98.5,
+        "feasibilityIndex": 99.2,
+        "paretoUtility": 76.1
+      },
+      "weights": {
+        "costWeight": 0.35,
+        "speedWeight": 0.4,
+        "serviceWeight": 0.25
+      },
+      "proposedActions": [
+        {
+          "id": "act-opt-1-1793123479589",
+          "actionType": "split_purchase_order",
+          "description": "Issue Emergency PO to Apex Semiconductor (Singapore) for 3,000 units MCU-9021",
+          "estimatedCost": 35000,
+          "targetEntity": "Apex Semiconductor (SG)",
+          "details": {
+            "sku": "MCU-9021",
+            "quantity": 3000,
+            "supplier": "APEX-SG",
+            "unitPrice": 49.5
+          },
+          "status": "executed"
+        },
+        {
+          "id": "act-opt-2-1793123479589",
+          "actionType": "inter_warehouse_transfer",
+          "description": "Dispatch 1,800 units MCU-9021 from Chicago Warehouse to Oakland via Swift Dedicated Truck",
+          "estimatedCost": 4200,
+          "targetEntity": "Midwest Center -> Pacific Hub",
+          "details": {
+            "source": "wh-2",
+            "dest": "wh-1",
+            "quantity": 1800,
+            "mode": "Dedicated Road",
+            "transitHours": 36
+          },
+          "status": "executed"
+        },
+        {
+          "id": "act-opt-3-1793123479589",
+          "actionType": "expedite_air_freight",
+          "description": "Book Singapore Airlines Priority Air Freight for 3,000 Apex units to San Francisco (SFO)",
+          "estimatedCost": 13600,
+          "targetEntity": "Singapore Airlines Cargo",
+          "details": {
+            "carrier": "SQ-Cargo",
+            "transitHours": 26,
+            "route": "SIN -> SFO"
+          },
+          "status": "executed"
+        },
+        {
+          "id": "act-opt-4-1793123479589",
+          "actionType": "reallocate_inventory_priority",
+          "description": "Hard-reserve available & inbound stock for Tier 1 Critical orders SO-89211 and SO-89212",
+          "estimatedCost": 0,
+          "targetEntity": "Order Allocation Matrix",
+          "details": {
+            "protectedOrders": [
+              "SO-89211",
+              "SO-89212"
+            ],
+            "tier1SlaRate": 1
+          },
+          "status": "executed"
+        },
+        {
+          "id": "act-opt-5-1793123479589",
+          "actionType": "reschedule_production",
+          "description": "Throttle Fremont Line 1 output to 75% for 48 hours to stretch on-hand stock by 1.8 days",
+          "estimatedCost": 0,
+          "targetEntity": "Fremont Manufacturing Plant",
+          "details": {
+            "line": "LINE-FREMONT-A",
+            "throttleRate": 0.75,
+            "hours": 48
+          },
+          "status": "executed"
+        }
+      ],
+      "tradeOffSummary": "Highest overall Pareto efficiency. Bridges the critical 48-hour gap using ready inventory from Chicago while inbound air shipments from Singapore ensure full continuous replenishment.",
+      "geminiExplanation": "Operational Disruption Briefing for CRX-SUP-NSM-TW:\nNanoSilicon Microelectronics (Taiwan) experienced an abrupt fabrication outage affecting automotive microcontroller MCU-9021. With Pacific Hub inventory at 3,000 units and daily consumption at 1,500 units/day, existing stock covers only 2.0 days of production, posing an immediate line-down threat to Assembly Line 1 within 48 hours.\n\nThe Autonomous Central Orchestrator evaluated multi-agent inputs and synthesized the Hybrid Optimal Plan:\n1. Dispatch an immediate inter-warehouse stock transfer of 1,800 units from Midwest Logistics Center (Chicago) via dedicated road freight (36-hour transit, $4,200).\n2. Issue an emergency purchase order to Apex Semiconductor (Singapore) for 3,000 units with priority air cargo booking via Singapore Airlines ($48,600 total procurement & freight).\n3. Throttle Fremont Line 1 production to 75% for 48 hours to extend current buffer by 1.8 days, aligning perfectly with incoming shipments.\n\nFinancial Assessment & Recommendation:\nTotal recovery investment is $52,800. This expenditure averts $520,000 in contractual customer SLA delay penalties and factory idle costs, delivering a 9.85x return on resilience investment while protecting 100% of Tier 1 deliveries to AeroDrive and MedPulse. Immediate human manager authorization is recommended.",
+      "pros": [
+        "Zero line-down risk for assembly operations",
+        "100% SLA protection for Tier 1 clients (AeroDrive & MedPulse)",
+        "Balanced expenditure ($52.8k vs $520k potential penalty)",
+        "36-hour relief window"
+      ],
+      "cons": [
+        "Requires coordination across 2 freight modes (Air & Express Road)",
+        "Temporarily reduces Chicago warehouse safety buffer"
+      ],
+      "approvalStatus": "approved",
+      "createdAt": "2026-10-27T17:51:25.595Z",
+      "approvedBy": "Sarah Lin",
+      "approvedAt": "2026-10-27T17:51:25.625Z",
+      "approvalComments": "Authorized after verifying dual-sourcing Pareto trade-offs."
+    },
+    {
+      "id": "plan-1793123485595-1",
+      "incidentId": "crisis-1793123479572-17",
+      "planVersion": 1,
+      "title": "Plan B: Speed-First (Air Charter & Onshore US Overdrive)",
+      "strategyType": "air_freight_expedite",
+      "optimizationEngine": "Google OR-Tools MILP Solver & Multi-Criteria Engine",
+      "objectiveScores": {
+        "totalRecoveryCost": 78400,
+        "estimatedLeadTimeDays": 0.8,
+        "affectedOrdersResolved": 3,
+        "serviceLevelScore": 99.5,
+        "feasibilityIndex": 94,
+        "paretoUtility": 74.4
+      },
+      "weights": {
+        "costWeight": 0.35,
+        "speedWeight": 0.4,
+        "serviceWeight": 0.25
+      },
+      "proposedActions": [
+        {
+          "id": "act-spd-1-1793123479589",
+          "actionType": "switch_supplier",
+          "description": "Emergency Onshore PO to Vortex Precision (Austin, TX) for 2,000 units MCU-9021 (Next-Day Courier)",
+          "estimatedCost": 48000,
+          "targetEntity": "Vortex Precision Circuits (Austin, TX)",
+          "details": {
+            "sku": "MCU-9021",
+            "quantity": 2000,
+            "supplier": "VORTEX-US",
+            "unitPrice": 58
+          },
+          "status": "proposed"
+        },
+        {
+          "id": "act-spd-2-1793123479589",
+          "actionType": "expedite_air_freight",
+          "description": "Dedicated Jet Charter from Austin to Oakland (6-hour turnaround)",
+          "estimatedCost": 22000,
+          "targetEntity": "Ameriflight Charter",
+          "details": {
+            "mode": "Private Air Cargo",
+            "transitHours": 6
+          },
+          "status": "proposed"
+        },
+        {
+          "id": "act-spd-3-1793123479589",
+          "actionType": "split_purchase_order",
+          "description": "Secondary PO to Apex Semiconductor (SG) for 1,500 units via Commercial Air",
+          "estimatedCost": 8400,
+          "targetEntity": "Apex Semiconductor (SG)",
+          "details": {
+            "sku": "MCU-9021",
+            "quantity": 1500,
+            "unitPrice": 49.5
+          },
+          "status": "proposed"
+        }
+      ],
+      "tradeOffSummary": "Fastest delivery to factory floor (less than 20 hours) via private air charter and onshore Austin supplier, but incurs a 48% cost premium ($78,400).",
+      "pros": [
+        "Fastest possible component arrival (18-20 hours)",
+        "Guaranteed zero production schedule adjustment",
+        "Minimal overseas geopolitical or customs friction"
+      ],
+      "cons": [
+        "Highest recovery cost ($78,400)",
+        "Private jet charter has higher carbon intensity"
+      ],
+      "approvalStatus": "pending",
+      "createdAt": "2026-10-27T17:51:25.595Z"
+    },
+    {
+      "id": "plan-1793123485595-2",
+      "incidentId": "crisis-1793123479572-17",
+      "planVersion": 1,
+      "title": "Plan D: Conservative Resilience (50/50 Dual Supplier Split)",
+      "strategyType": "split_procurement",
+      "optimizationEngine": "Google OR-Tools MILP Solver & Multi-Criteria Engine",
+      "objectiveScores": {
+        "totalRecoveryCost": 61500,
+        "estimatedLeadTimeDays": 2.2,
+        "affectedOrdersResolved": 3,
+        "serviceLevelScore": 95,
+        "feasibilityIndex": 96.5,
+        "paretoUtility": 65.2
+      },
+      "weights": {
+        "costWeight": 0.35,
+        "speedWeight": 0.4,
+        "serviceWeight": 0.25
+      },
+      "proposedActions": [
+        {
+          "id": "act-cns-1-1793123479589",
+          "actionType": "split_purchase_order",
+          "description": "Split PO: 1,500 units to Apex Semiconductor (SG) + 1,500 units to Vortex Precision (US)",
+          "estimatedCost": 45000,
+          "targetEntity": "Dual Sourcing Consortium",
+          "details": {
+            "split": "50% Apex SG, 50% Vortex US",
+            "totalUnits": 3000
+          },
+          "status": "proposed"
+        },
+        {
+          "id": "act-cns-2-1793123479589",
+          "actionType": "expedite_air_freight",
+          "description": "Standard Air & Ground Expediting across both supplier origins",
+          "estimatedCost": 16500,
+          "targetEntity": "Global Logistics Partners",
+          "details": {
+            "modes": "Air Freight + Interstate Express"
+          },
+          "status": "proposed"
+        }
+      ],
+      "tradeOffSummary": "Diversifies risk across both Singapore and Texas suppliers, establishing long-term dual redundancy with moderate cost ($61,500) and 2.2-day transit.",
+      "pros": [
+        "Establishes long-term multi-sourcing hedge against future disruptions",
+        "Protects Tier 1 orders with 95% service level"
+      ],
+      "cons": [
+        "Slightly higher administrative overhead managing two parallel contracts",
+        "Lead time of 2.2 days requires tight shift management"
+      ],
+      "approvalStatus": "pending",
+      "createdAt": "2026-10-27T17:51:25.595Z"
+    },
+    {
+      "id": "plan-1793123485595-3",
+      "incidentId": "crisis-1793123479572-17",
+      "planVersion": 1,
+      "title": "Plan C: Cost-Minimized (Inter-Warehouse Surface Transfer Only)",
+      "strategyType": "warehouse_transfer",
+      "optimizationEngine": "Google OR-Tools MILP Solver & Multi-Criteria Engine",
+      "objectiveScores": {
+        "totalRecoveryCost": 14200,
+        "estimatedLeadTimeDays": 4.5,
+        "affectedOrdersResolved": 1,
+        "serviceLevelScore": 72,
+        "feasibilityIndex": 82.5,
+        "paretoUtility": 53
+      },
+      "weights": {
+        "costWeight": 0.35,
+        "speedWeight": 0.4,
+        "serviceWeight": 0.25
+      },
+      "proposedActions": [
+        {
+          "id": "act-cst-1-1793123479589",
+          "actionType": "inter_warehouse_transfer",
+          "description": "Standard Freight Transfer: 2,500 units MCU-9021 from Chicago Center to Pacific Hub via Consolidated Rail",
+          "estimatedCost": 3200,
+          "targetEntity": "Pacific Hub Warehouse",
+          "details": {
+            "source": "wh-2",
+            "dest": "wh-1",
+            "quantity": 2500,
+            "mode": "Standard Rail/Truck",
+            "transitDays": 4.5
+          },
+          "status": "proposed"
+        },
+        {
+          "id": "act-cst-2-1793123479589",
+          "actionType": "reschedule_production",
+          "description": "Pause Line 1 for 48 hours to await rail arrival (absorbs $11,000 temporary downtime shift cost)",
+          "estimatedCost": 11000,
+          "targetEntity": "Fremont Plant",
+          "details": {
+            "line": "LINE-FREMONT-A",
+            "pauseHours": 48
+          },
+          "status": "proposed"
+        }
+      ],
+      "tradeOffSummary": "Lowest direct cash outlay ($14,200), but lead time of 4.5 days exceeds the 48-hour inventory run-out, resulting in a mandatory 2-day line shutdown and delayed delivery to MedPulse.",
+      "pros": [
+        "Lowest direct freight and procurement expenditure ($14,200)",
+        "No external purchase order premiums"
+      ],
+      "cons": [
+        "Exposes Fremont line to 36-48 hours of idle downtime ($120k penalty)",
+        "Violates delivery SLA for MedPulse Robotics",
+        "Customer satisfaction impact on Tier 1 relationships"
+      ],
+      "approvalStatus": "pending",
+      "createdAt": "2026-10-27T17:51:25.595Z"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "ver-1793123485637",
+      "incidentId": "crisis-1793123479572-17",
+      "recoveryPlanId": "plan-1793123485595-0",
+      "verifiedAt": "2026-10-27T17:51:25.637Z",
+      "outcome": "Resolved",
+      "originalIncidentResolved": true,
+      "checks": [
+        {
+          "checkName": "Inventory Runway & Coverage Buffer",
+          "passed": true,
+          "expected": "Coverage >= 5.0 days",
+          "actual": "5.2 days (7800 units on hand)",
+          "detail": "Oakland inventory replenished via Chicago transfer and Singapore air cargo allocation."
+        },
+        {
+          "checkName": "Tier 1 Critical Customer SLAs Protected",
+          "passed": true,
+          "expected": "0 Tier 1 orders at risk",
+          "actual": "0 at risk orders remaining",
+          "detail": "AeroDrive Autonomous Systems and MedPulse Robotics fully protected."
+        },
+        {
+          "checkName": "Fremont Assembly Line 1 Operational Feasibility",
+          "passed": true,
+          "expected": "status: operational, 0 idle hours",
+          "actual": "status: operational, output: 1500/day",
+          "detail": "Assembly line bottleneck removed; daily target production sustained."
+        },
+        {
+          "checkName": "Alternative Supplier & Freight Confirmation",
+          "passed": true,
+          "expected": ">= 1 active expedited transport tracking record",
+          "actual": "2 confirmed in-transit shipment records",
+          "detail": "Dedicated road freight (Chicago) and air cargo (Singapore) active in global tracking."
+        },
+        {
+          "checkName": "Residual Supply Shortage Check",
+          "passed": true,
+          "expected": "Available unreserved units > 1,000",
+          "actual": "5000 unreserved units",
+          "detail": "Positive safety stock restored above critical reorder threshold."
+        }
+      ],
+      "residualShortages": 0,
+      "remainingAtRiskOrders": 0,
+      "inventoryCoverageDaysAfter": 5.2,
+      "supplierFulfillmentConfirmed": true,
+      "recommendations": [
+        "Crisis criteria met: mark incident as verified_resolved in permanent ledger.",
+        "Establish automated check at 36-hour mark to confirm physical dock-in at Oakland.",
+        "Transition from emergency spot pricing back to negotiated quarterly contract with Apex Semiconductor."
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1793123485654-830",
+      "timestamp": "2026-10-27T17:51:25.654Z",
+      "actor": "CSV Importer",
+      "role": "Operations Director",
+      "action": "SUPPLIERS_CSV_IMPORTED",
+      "category": "data_mutation",
+      "details": "Imported 1 validated suppliers from CSV file. Skipped 1 invalid rows."
+    },
+    {
+      "id": "aud-1793123485638-435",
+      "timestamp": "2026-10-27T17:51:25.638Z",
+      "actor": "Central AI Orchestrator",
+      "role": "Adaptive Learning Engine",
+      "action": "LEARNING_MODEL_UPDATED",
+      "category": "learning",
+      "details": "Adaptive Learning Loop: Emergency fulfillment by Apex Semiconductor verified nominal. Updated supplier reliability to 98.5% and recorded dual-sourcing precedence in decision registry."
+    },
+    {
+      "id": "aud-1793123485637-425",
+      "timestamp": "2026-10-27T17:51:25.637Z",
+      "actor": "Verification Agent",
+      "role": "Autonomous Verifier",
+      "action": "POST_ACTION_VERIFICATION",
+      "category": "verification",
+      "details": "Verification complete: Outcome = Resolved. 5/5 database criteria checks passed. Zero residual shortages."
+    },
+    {
+      "id": "aud-1793123485636-781",
+      "timestamp": "2026-10-27T17:51:25.636Z",
+      "actor": "Sarah Lin",
+      "role": "Operations Director",
+      "action": "EXECUTION_COMPLETED",
+      "category": "execution",
+      "details": "Executed recovery plan \"Plan A: Hybrid Optimal (Dual-Channel Stock Transfer & Express Air Procurement)\". Mutated inventory, issued emergency POs, created 2 shipments, unblocked Tier 1 customer orders."
+    },
+    {
+      "id": "aud-1793123485626-450",
+      "timestamp": "2026-10-27T17:51:25.626Z",
+      "actor": "Sarah Lin",
+      "role": "Operations Director",
+      "action": "PLAN_APPROVED",
+      "category": "approval",
+      "details": "Plan \"Plan A: Hybrid Optimal (Dual-Channel Stock Transfer & Express Air Procurement)\" marked as approved. Comments: Authorized after verifying dual-sourcing Pareto trade-offs."
+    },
+    {
+      "id": "aud-1793123485596-5",
+      "timestamp": "2026-10-27T17:51:25.596Z",
+      "actor": "Central AI Orchestrator",
+      "role": "Autonomous Orchestrator",
+      "action": "RECOVERY_PLAN_GENERATED",
+      "category": "optimization",
+      "details": "Orchestrator synthesized 4 candidate recovery plans. Top recommendation: \"Plan A: Hybrid Optimal (Dual-Channel Stock Transfer & Express Air Procurement)\" (Cost: $52,800, Lead Time: 1.5d). Status moved to pending_approval."
+    },
+    {
+      "id": "aud-1793123479586-676",
+      "timestamp": "2026-10-27T17:51:19.586Z",
+      "actor": "Central AI Orchestrator",
+      "role": "Autonomous Orchestrator",
+      "action": "WORKFLOW_STARTED",
+      "category": "agent",
+      "details": "Orchestrator dispatched specialized agents for incident CRX-SUP-NSM-TW (Supplier Failure: NanoSilicon Microelectronics (Taiwan) Outage)"
+    },
+    {
+      "id": "aud-1793123479578-621",
+      "timestamp": "2026-10-27T17:51:19.578Z",
+      "actor": "Crisis Detection Engine",
+      "role": "Autonomous Agent",
+      "action": "CRISIS_DETECTED",
+      "category": "crisis",
+      "details": "New Critical crisis detected: Customer SLA Violation Risk: MedPulse Critical Care Robotics (SO-89212) (Est. Impact: $72,000)",
+      "diff": {
+        "incidentId": "crisis-1793123479577-122",
+        "code": "CRX-ORD-SO-89212"
+      }
+    },
+    {
+      "id": "aud-1793123479578-310",
+      "timestamp": "2026-10-27T17:51:19.578Z",
+      "actor": "Crisis Detection Engine",
+      "role": "Autonomous Agent",
+      "action": "CRISIS_DETECTED",
+      "category": "crisis",
+      "details": "New Critical crisis detected: Customer SLA Violation Risk: AeroDrive Autonomous Systems (SO-89211) (Est. Impact: $120,000)",
+      "diff": {
+        "incidentId": "crisis-1793123479577-25",
+        "code": "CRX-ORD-SO-89211"
+      }
+    },
+    {
+      "id": "aud-1793123479577-122",
+      "timestamp": "2026-10-27T17:51:19.577Z",
+      "actor": "Crisis Detection Engine",
+      "role": "Autonomous Agent",
+      "action": "CRISIS_DETECTED",
+      "category": "crisis",
+      "details": "New Medium crisis detected: Transport Disruption: OceanBridge Logistics (Vessel: Ever Glory) delayed by 30h (Est. Impact: $63,000)",
+      "diff": {
+        "incidentId": "crisis-1793123479572-534",
+        "code": "CRX-LOG-TRK-PAC-8849"
+      }
+    },
+    {
+      "id": "aud-1793123479577-990",
+      "timestamp": "2026-10-27T17:51:19.577Z",
+      "actor": "Crisis Detection Engine",
+      "role": "Autonomous Agent",
+      "action": "CRISIS_DETECTED",
+      "category": "crisis",
+      "details": "New Critical crisis detected: Stockout Crisis: MCU-9021 at Pacific Hub Warehouse - Oakland (Est. Impact: $630,000)",
+      "diff": {
+        "incidentId": "crisis-1793123479572-325",
+        "code": "CRX-INV-MCU-9021"
+      }
+    },
+    {
+      "id": "aud-1793123479577-122",
+      "timestamp": "2026-10-27T17:51:19.577Z",
+      "actor": "Crisis Detection Engine",
+      "role": "Autonomous Agent",
+      "action": "CRISIS_DETECTED",
+      "category": "crisis",
+      "details": "New Critical crisis detected: Supplier Failure: NanoSilicon Microelectronics (Taiwan) Outage (Est. Impact: $525,000)",
+      "diff": {
+        "incidentId": "crisis-1793123479572-17",
+        "code": "CRX-SUP-NSM-TW"
+      }
+    },
+    {
+      "id": "aud-1793123479571-34",
+      "timestamp": "2026-10-27T17:51:19.571Z",
+      "actor": "System Admin",
+      "role": "Crisis Manager",
+      "action": "DEMO_SCENARIO_TRIGGERED",
+      "category": "crisis",
+      "details": "Triggered Master Scenario: NanoSilicon Micro 5-Day Outage. Inventory coverage dropped to 2 days."
+    },
+    {
+      "id": "aud-1793123479558-693",
+      "timestamp": "2026-10-27T17:51:19.558Z",
+      "actor": "System Admin",
+      "role": "Crisis Manager",
+      "action": "RESET_DEMO_DATASET",
+      "category": "system",
+      "details": "Database restored to clean initial seed data."
+    },
+    {
+      "id": "aud-1",
+      "timestamp": "2026-10-25T17:51:19.558Z",
+      "actor": "System Autonomous Daemon",
+      "role": "Automated Agent",
+      "action": "CYCLE_HEALTH_AUDIT",
+      "category": "system",
+      "details": "Automated multi-node telemetry synchronization completed. All 4 warehouses reporting nominal."
+    },
+    {
+      "id": "aud-2",
+      "timestamp": "2026-10-27T05:51:19.558Z",
+      "actor": "Marcus Vance",
+      "role": "Supply Chain Operations Director",
+      "action": "SYSTEM_CONFIG_UPDATED",
+      "category": "system",
+      "details": "Updated crisis alert thresholds: Tier 1 coverage trigger set to < 3 days buffer."
+    }
+  ]
+}

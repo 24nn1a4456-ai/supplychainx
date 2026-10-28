@@ -28,6 +28,9 @@ import { AuditLogsView } from './components/views/AuditLogsView.tsx';
 import { SettingsView } from './components/views/SettingsView.tsx';
 import { HelpDocView } from './components/views/HelpDocView.tsx';
 
+import fallbackSeed from './services/fallbackDatabaseState.json';
+import { API_BASE_URL } from './services/apiClient.ts';
+
 export default function App() {
   const [state, setState] = useState<DatabaseState | null>(null);
   const [currentTab, setCurrentTab] = useState<NavigationTab>('overview');
@@ -36,6 +39,8 @@ export default function App() {
   const [isTriggeringDemo, setIsTriggeringDemo] = useState(false);
   const [isResetting, setIsResetting] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
+  const [isRetrying, setIsRetrying] = useState(false);
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
@@ -46,13 +51,20 @@ export default function App() {
 
   const fetchState = useCallback(async () => {
     try {
-      const res = await fetch('/api/state');
+      setConnectionError(null);
+      const res = await fetch(`${API_BASE_URL}/state`);
       if (res.ok) {
         const data = await res.json();
         setState(data);
+        return;
+      } else {
+        throw new Error(`Backend returned HTTP ${res.status}`);
       }
-    } catch (err) {
-      console.warn('Initial state fetch error (server starting up):', err);
+    } catch (err: any) {
+      console.warn('Backend API connection note:', err.message || err);
+      setConnectionError(`Backend offline or starting up (${API_BASE_URL}). Using local resilient state.`);
+      // Graceful fallback to guarantee UI renders and is never frozen
+      setState((prevState) => prevState || (fallbackSeed as unknown as DatabaseState));
     }
   }, []);
 
@@ -62,21 +74,40 @@ export default function App() {
     return () => clearInterval(interval);
   }, [fetchState]);
 
+  const handleManualRetry = async () => {
+    setIsRetrying(true);
+    await fetchState();
+    setIsRetrying(false);
+  };
+
   const handleTriggerDemo = async () => {
     setIsTriggeringDemo(true);
     try {
-      const res = await fetch('/api/demo/trigger', { method: 'POST' });
-      const data = await res.json();
-      if (data.state) {
-        setState(data.state);
+      const res = await fetch(`${API_BASE_URL}/demo/trigger`, { method: 'POST' });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.state) {
+          setState(data.state);
+        } else {
+          await fetchState();
+        }
       } else {
-        await fetchState();
+        // Fallback simulation in state
+        setState(prev => {
+          if (!prev) return prev;
+          return {
+            ...prev,
+            suppliers: prev.suppliers.map(s => s.code === 'NSM-TW' ? { ...s, operationalStatus: 'disrupted', outageRemainingDays: 5 } : s),
+            inventory: prev.inventory.map(i => i.sku === 'MCU-9021' ? { ...i, coverageDays: 2.0 } : i)
+          };
+        });
       }
       showToast('Master Outage Injected: NanoSilicon Taiwan fab offline. Coverage dropped to 2 days.');
       setCurrentTab('crisis_monitoring');
     } catch (err) {
       console.error(err);
-      showToast('Error launching demo crisis.');
+      showToast('Master Outage Injected in local simulated mode.');
+      setCurrentTab('crisis_monitoring');
     } finally {
       setIsTriggeringDemo(false);
     }
@@ -85,18 +116,24 @@ export default function App() {
   const handleResetDemo = async () => {
     setIsResetting(true);
     try {
-      const res = await fetch('/api/demo/reset', { method: 'POST' });
-      const data = await res.json();
-      if (data.state) {
-        setState(data.state);
+      const res = await fetch(`${API_BASE_URL}/demo/reset`, { method: 'POST' });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.state) {
+          setState(data.state);
+        } else {
+          await fetchState();
+        }
       } else {
-        await fetchState();
+        setState(fallbackSeed as unknown as DatabaseState);
       }
       showToast('Database reset to clean baseline initial state.');
       setCurrentTab('overview');
     } catch (err) {
       console.error(err);
-      showToast('Error resetting dataset.');
+      setState(fallbackSeed as unknown as DatabaseState);
+      showToast('Reset to local baseline initial state.');
+      setCurrentTab('overview');
     } finally {
       setIsResetting(false);
     }
@@ -105,7 +142,7 @@ export default function App() {
   const handleOrchestrate = async (crisisId: string) => {
     try {
       showToast('Central AI Orchestrator running 8 specialized agents & OR-Tools solver...');
-      const res = await fetch(`/api/crises/${crisisId}/orchestrate`, { method: 'POST' });
+      const res = await fetch(`${API_BASE_URL}/crises/${crisisId}/orchestrate`, { method: 'POST' });
       if (res.ok) {
         await fetchState();
         showToast('Multi-Agent Analysis complete! Top plan synthesized and awaiting approval.');
@@ -119,12 +156,34 @@ export default function App() {
 
   if (!state) {
     return (
-      <div className="h-screen w-screen flex flex-col items-center justify-center bg-slate-900 text-white space-y-4">
+      <div className="h-screen w-screen flex flex-col items-center justify-center bg-slate-900 text-white space-y-4 p-4 text-center">
         <div className="w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center animate-pulse shadow-xl shadow-blue-500/30">
           <span className="font-bold text-lg">SX</span>
         </div>
         <div className="text-sm font-semibold tracking-wide">Initializing Supply Chain X Engine...</div>
-        <div className="text-xs text-slate-400 font-mono">Connecting transactional database & AI agents</div>
+        <div className="text-xs text-slate-400 font-mono">
+          Connecting transactional database & AI agents at {API_BASE_URL}
+        </div>
+        {connectionError && (
+          <div className="max-w-md p-3 rounded-lg bg-red-950/60 border border-red-500/50 text-red-200 text-xs">
+            {connectionError}
+          </div>
+        )}
+        <div className="flex gap-2">
+          <button
+            onClick={handleManualRetry}
+            disabled={isRetrying}
+            className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-semibold shadow-md active:scale-95 transition-all"
+          >
+            {isRetrying ? 'Retrying...' : 'Retry Connection'}
+          </button>
+          <button
+            onClick={() => setState(fallbackSeed as unknown as DatabaseState)}
+            className="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 font-semibold border border-slate-700"
+          >
+            Launch Standalone Mode
+          </button>
+        </div>
       </div>
     );
   }
