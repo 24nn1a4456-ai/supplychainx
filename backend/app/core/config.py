@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     )
     CORS_ORIGINS: str = os.environ.get(
         "CORS_ORIGINS",
-        "http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174,http://localhost:3000,https://*.onrender.com,https://*.vercel.app,*"
+        "https://supplychainmultiagent.vercel.app,http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174,http://localhost:3000,https://*.onrender.com,https://*.vercel.app,*"
     )
     OPENWEATHER_API_KEY: str = os.environ.get("OPENWEATHER_API_KEY", "")
 

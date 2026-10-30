@@ -14,7 +14,7 @@ services:
       - key: DATABASE_URL
         value: sqlite:////opt/render/project/src/backend/supply_chain.db
       - key: CORS_ORIGINS
-        value: "https://supply-chain-x-frontend.onrender.com,http://localhost:5173,http://localhost:5174,http://127.0.0.1:5173,*"
+        value: "https://supplychainmultiagent.vercel.app,https://supply-chain-x-frontend.onrender.com,http://localhost:5173,http://localhost:5174,http://127.0.0.1:5173,*"
       - key: PORT
         value: 10000
 
